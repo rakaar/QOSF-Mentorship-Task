@@ -8,7 +8,7 @@
 - Open `Task_2.ipynb` in Jupyter Notebook - `jupyter-notebook Task_2.ipynb`
 
 ## Appendix
-- The same code with outputs can be viewed on Google Colab at this link - TODO LINK TO BE ADDED
+- The same code with outputs can be viewed on Google Colab at [this link](https://colab.research.google.com/drive/1WSn3N1AZEw1XD4u16GHhnAGIEMoUnCRQ?usp=sharing)
 - Explanaing the task in bried - TODO README file to be made
 - PDF file for 1 - TODO
 - PDF file for 2 - TODO
