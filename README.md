@@ -9,7 +9,7 @@
 
 ## Informal Guide
 - The [QOSF_Task_2.ipynb](https://github.com/rakaar/QOSF-Mentorship-Task/blob/master/QOSF_Task_2.ipynb) contains the task
-- The same can be viewed on Google colab with outputs at this link - TODO
+- The same can be viewed on Google colab with outputs at [this link](https://colab.research.google.com/drive/12uHBvqr2mJAQ01sKX-pYgTTcmWbTLQ0i?usp=sharing)
 - Things done in the Task
   - The task has been done using Qiskit, however no APIs of Qiskit were used to implement Error correction directly.
   - The basic assumption has been made that a sender sends Qubits to the receiver, who is applying the CNOT gate. Hence before applying the CNOT gate, the receiver must correct the received Qubits and then apply the CNOT gate, and ensure that resulting state is |00> + |11>/root(2)
