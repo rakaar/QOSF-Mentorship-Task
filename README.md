@@ -5,10 +5,10 @@
 - Create a virtual environment - `python -m venv env`
 - Activate the virtual envrionment made - `source env/bin/activate`
 - Install the requirements - `pip install -r requirements.txt`
-- Open `Task_2.ipynb` in Jupyter Notebook - `jupyter-notebook New_Task_2.ipynb`
+- Open `QOSF_Task_2.ipynb` in Jupyter Notebook - `jupyter-notebook QOSF_Task_2.ipynb`
 
 ## Informal Guide
-- The `New_Task_2.ipynb` contains the task
+- The [QOSF_Task_2.ipynb](https://github.com/rakaar/QOSF-Mentorship-Task/blob/master/QOSF_Task_2.ipynb) contains the task
 - The same can be viewed on Google colab with outputs at this link - TODO
 - Things done in the Task
   - The task has been done using Qiskit, however no APIs of Qiskit were used to implement Error correction directly.
@@ -19,15 +19,8 @@
      - State Vector Simulator has been used to check if Phase has been changed or not
      - Task 2.2 has been applied 100 times to see if the appeared error gates are acting as per the expected probabilities
   - In Task 2.3, Shor's 9 bit code has been used to fix the actions of error gates on both the Qubits. The same has been repeated 100 times to see that the end output is indeed the Bell State we expect.
-  - The same Task 2.3 is done with totally a fewer bits. In the previous cells, seperate ancillary cells were used for both the Qubits. But both the main Qubits can share the same 8 Ancillia bits. After correcting error in 1 Qubit, the ancillia bits are reset.
-  - At the end, I tried to implement Steane's code, which is a more efficient one as it uses 7 bits in a logical bit. However, it is incomplete. Missing parts are explained in detail here[TODO ISSUE LINK]. But the encoder and decoder circuit has been implemented correctly from [this](https://arxiv.org/pdf/1306.4532.pdf) paper. And the Syndrome bits that are printed are also right(It can be tested with randomly applying Z or X gates at the Qubits and verifying that syndrome guides us to make the right corrections, as per the table mentioned in page 11 of the paper above).
-  - Before finalizing the current notebook, I had done some different things, which are wrong! I have burried them in the mistakes folder of this repo :)
+  - The same Task 2.3 is done with fewer bits in total. In the previous cells, seperate ancillary cells were used for both the Qubits. But both the main Qubits can share the same 8 Ancillia bits. After correcting error in 1 Qubit, the ancillia bits are reset.
+  - At the end, I tried to implement Steane's code, efficient one as it uses 7 bits in a logical bit. However, it is incomplete. Missing parts are explained in detail [here](https://github.com/rakaar/QOSF-Mentorship-Task/issues/1).
+  - Before finalizing the current notebook, I had done some different things, which were wrong! I have burried them in the mistakes folder of this repo :)
 
 
-
-## TO BE REMOVED
-- The same code with outputs can be viewed on Google Colab at [this link](https://colab.research.google.com/drive/1WSn3N1AZEw1XD4u16GHhnAGIEMoUnCRQ?usp=sharing)
-- Explanaing the task in bried - TODO README file to be made
-- [PDF file](https://github.com/rakaar/QOSF-Mentorship-Task/blob/master/QOSF%20-%20Task%202%20notes%20-%202.3.1.pdf) explaining cases when Error gates act on Main Qubits
-- [PDF file](https://github.com/rakaar/QOSF-Mentorship-Task/blob/master/QOSF%20-%20Task%202%20notes%20-%202.3.2.pdf) explaining cases where Error gates act on Ancilliary Qubits too 
-- A [blog](https://raghav.wtf/2021-02-12-measure-m-outof-n/) written by me on a small issue faced during the task.
