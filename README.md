@@ -22,5 +22,6 @@
   - The same Task 2.3 is done with fewer bits in total. In the previous cells, seperate ancillary cells were used for both the Qubits. But both the main Qubits can share the same 8 Ancillia bits. After correcting error in 1 Qubit, the ancillia bits are reset.
   - At the end, I tried to implement Steane's code, efficient one as it uses 7 bits in a logical bit. However, it is incomplete. Missing parts are explained in detail [here](https://github.com/rakaar/QOSF-Mentorship-Task/issues/1).
   - Before finalizing the current notebook, I had done some different things, which were wrong! I have burried them in the mistakes folder of this repo :)
+  - - A [blog](https://raghav.wtf/2021-02-12-measure-m-outof-n/) written by me on a small issue faced during the task.
 
 
